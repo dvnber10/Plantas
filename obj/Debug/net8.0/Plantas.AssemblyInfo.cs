@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Plantas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d034c00d02b41f76b8f6ad812bee1db0f30c0e8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+adbac6f47df4b6b2809d35dab7f38379363e4638")]
 [assembly: System.Reflection.AssemblyProductAttribute("Plantas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Plantas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
