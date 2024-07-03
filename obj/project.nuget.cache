@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "rX/a478yp+05WIhQZhaYmNFF/eO43I6o3D3HnLGA3qBmI9YkE/Xx071QFse6jROC5Gps0nmmzeJG+HcvCPa2hQ==",
+  "dgSpecHash": "NYI3Y8xTQ+hW5IwaFL86QYOkksrjCQzH+rvWECeDfwekLTMSfZZ0KqoQTgS/TNC+g7pnJzOG7WZRfVz2Iko/FQ==",
   "success": true,
   "projectFilePath": "/home/dvn/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
   "expectedPackageFiles": [
     "/home/dvn/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/dvn/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "/home/dvn/.nuget/packages/dnsclient/1.6.1/dnsclient.1.6.1.nupkg.sha512",
+    "/home/dvn/.nuget/packages/dotenv.net/3.2.0/dotenv.net.3.2.0.nupkg.sha512",
     "/home/dvn/.nuget/packages/microsoft.extensions.logging.abstractions/2.0.0/microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "/home/dvn/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/home/dvn/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
