@@ -28,3 +28,4 @@
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.pdb
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.genruntimeconfig.cache
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/ref/Plantas.dll
+/home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.sourcelink.json
