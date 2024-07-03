@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "zBmiLDVT6KFbEt1uFQn3e63Z0/eIgEzi+pYuC584R3bhIasZLsmImIHLrzEC2fOZW7/b1KEfMDdgXbbnAhLysA==",
+  "success": true,
+  "projectFilePath": "/home/dvn/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
+  "expectedPackageFiles": [
+    "/home/dvn/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+  ],
+  "logs": []
+}
