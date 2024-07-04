@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "zBmiLDVT6KFbEt1uFQn3e63Z0/eIgEzi+pYuC584R3bhIasZLsmImIHLrzEC2fOZW7/b1KEfMDdgXbbnAhLysA==",
+  "dgSpecHash": "851jSkpEwrk=",
   "success": true,
-  "projectFilePath": "/home/dvn/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
+  "projectFilePath": "/home/gustavo/Desarrollo/C#/Plantas/Plantas.csproj",
   "expectedPackageFiles": [
-    "/home/dvn/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+    "/home/gustavo/.nuget/packages/microsoft.netcore.app.ref/8.0.6/microsoft.netcore.app.ref.8.0.6.nupkg.sha512",
+    "/home/gustavo/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512",
+    "/home/gustavo/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.6/microsoft.netcore.app.host.linux-x64.8.0.6.nupkg.sha512"
   ],
   "logs": []
 }
