@@ -1,16 +1,18 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Plantas.Models;
+using Plantas.Services;
 
 namespace Plantas.Controllers;
 
 public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    private readonly TargetService _targetService;
+    public HomeController(ILogger<HomeController> logger, TargetService service)
     {
         _logger = logger;
+        _targetService = service;
     }
 
     public IActionResult Index()

@@ -13,7 +13,7 @@ namespace Plantas.Repositories
         internal Context _context= new Context();
         private IMongoCollection<Plant> collection;
         public DataCollection(){
-            collection = _context.db.GetCollection<Plant>("Plants");
+            collection = _context.db.GetCollection<Plant>("Plant");
         }
         public async Task<List<Plant>> GetAllPlants(){
             return await collection.FindAsync(new BsonDocument()).Result.ToListAsync();
@@ -26,12 +26,12 @@ namespace Plantas.Repositories
             var filter = Builders<Plant>.Filter.Eq(s=> s.Id , plant.Id);
             await collection.ReplaceOneAsync(filter,plant);  
         }
-//        public async Task  DeletePlant(string Id){
-//            var filter = Builders<Plant>.Filter.Eq(s => s.Id, new  ObjectId (Id));
-//            await collection.DeleteOneAsync(filter);
-//        }
+        public async Task  DeletePlant(string Id){
+            var filter = Builders<Plant>.Filter.Eq(s => s.Id, Id);
+            await collection.DeleteOneAsync(filter);
+        }
         public async Task <Plant>GetPlantById(string id){
-            return await collection.FindAsync(new BsonDocument{{"_id", new ObjectId(id)}}).Result.FirstAsync();
+            return await collection.FindAsync(new BsonDocument{{"_id", new ObjectId(id)}}).Result.FirstOrDefaultAsync();
         }          
         
     }

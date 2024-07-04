@@ -11,14 +11,12 @@ namespace Plantas.Services
 {
     public class TargetService
     {
-        public readonly DataCollection _db;
-        public TargetService(DataCollection db){
-            _db = db;
-        }
+        private DataInterface db = new DataCollection();
+        
         public async Task InsertarPlanta(Plant planta){
             try
             {
-                await _db.InsertPlant(planta);
+                await db.InsertPlant(planta);
                 
             }
             catch (System.Exception)
@@ -28,7 +26,7 @@ namespace Plantas.Services
         }
         public async Task<List<Plant>> GetPlants(){
             
-            return await _db.GetAllPlants();
+            return await db.GetAllPlants();
            
         }
     }
