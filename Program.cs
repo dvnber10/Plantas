@@ -1,8 +1,13 @@
+using Plantas.Controllers;
+using Plantas.Repositories;
+using Plantas.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<DataInterface, DataCollection>();
+builder.Services.AddScoped<TargetService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
