@@ -1,20 +1,16 @@
+using dotenv.net;
 using MongoDB.Driver;
 
 namespace Plantas.Repositories
 {
     public class Context
     {
-        private readonly IConfigurationRoot _config;
         public MongoClient? client;
         public IMongoDatabase? db;
         public Context (){
-            IConfigurationBuilder builder = new ConfigurationBuilder()
-            .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
-            .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
-
-            _config = builder.Build();
-
-            client = new MongoClient(_config.GetConnectionString("Base"));
+            
+            var env = DotEnv.Read();
+            client = new MongoClient(env["Database"]);
             db = client.GetDatabase("Plantas");
         }
     }

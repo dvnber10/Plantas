@@ -9,10 +9,9 @@ namespace Plantas.Repositories
     {
         Task InsertPlant(Plant plant);
         Task UpdatePlant(Plant plant);
-        Task  DeletePlant(string plantId);
+//        Task  DeletePlant(string Id);
         Task <List<Plant>>GetAllPlants();
-        Task <Plant> GetPlantById(int id);
-        Task<Plant> GetPlantByType(string plantType);
+        Task <Plant> GetPlantById(string id);
 
     }
 }
