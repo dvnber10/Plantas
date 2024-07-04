@@ -1,0 +1,30 @@
+@model IEnumerable<Plantas.Models.Plant>
+    
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+@foreach (var item in Model)
+{
+<ul>
+    <li>
+        Photo
+    </li>
+    <li>
+        <h1>Planta</h1>
+    </li>
+    <li>
+        Description
+    </li>
+    <li>
+        Family
+    </li>
+    <li>
+        Enfermedades
+    </li>
+    <li>
+        Plagas comunes
+    </li>
+</ul>
+
+}
