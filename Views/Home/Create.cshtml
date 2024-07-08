@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Nueva Planta";
+}
+@model Plantas.Models.Plant
+<div class="card-body justify-content-end  justify-content-center ml-30% --bs-blue w-50 h-100 border-success mx-auto"
+ style="
+ background:  rgb(98, 98, 235);
+ border: 1px solid blue;
+ border-radius:15px;
+ justify-content:center;
+ aling-items:center;
+ text-aling:center;
+ ">
+    <h1 class="card-title">@ViewData["Title"]</h1>
+    <form action="Index" method="post" enctype="multipart/form-data">
+        <div style="justify-content: center; aling-items:center;">
+            <label class="input-group card-text d-flex mb-15 w-100" asp-for="Name">Nombre</label>
+            <input class="input-group form-control d-flex border-success mb-15" asp-for="Name" type="text">
+            <label class="input-group d-flex mb-15" asp-for="Description">Descripción</label>
+            <input class="input-group form-control d-flex border-success mb-15" asp-for="Description" type="text">
+            <label class="input-group d-flex mb-15" asp-for="Imagen">Imagen</label>
+            <input class="input-group d-flex mb-15" asp-for="Imagen" type="file">
+            <div>
+                <button type="submit"  style="margin:8px; border-radius: 10px;">Guardar planta</button>
+            </div>
+        </div>
+    </form>
+</div>
