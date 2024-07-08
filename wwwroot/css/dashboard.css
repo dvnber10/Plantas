@@ -1,0 +1,28 @@
+.caja-dashboard {
+    width: 97%;
+    margin: auto;
+}
+
+.contenedor-cards{
+    display: flex;
+    padding: 10px;
+}
+
+.list-items {
+    border: 1px solid blue;
+    background-color: rgb(110, 110, 202);
+    box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+    border-radius: 14px;
+    width: 300px;
+    padding: 25px 20px;
+    list-style-type: none;
+    color: white;    
+    
+}
+
+
+@media (min-width: 1040px) {
+    .list-items{
+         width: 200px;
+    }
+}

@@ -1,30 +1,38 @@
 @model IEnumerable<Plantas.Models.Plant>
-    
+
 @{
     ViewData["Title"] = "Dashboard";
 }
 
-@foreach (var item in Model)
-{
-<ul>
-    <li>
-        Photo
-    </li>
-    <li>
-        <h1>Planta</h1>
-    </li>
-    <li>
-        Description
-    </li>
-    <li>
-        Family
-    </li>
-    <li>
-        Enfermedades
-    </li>
-    <li>
-        Plagas comunes
-    </li>
-</ul>
+<div class="caja-dashboard">
+    <h1 class="title-plantas">Libreta</h1>
+    <span class="loop"><input type="text" placeholder="buscar"></span>
+</div>
+    <div class="contenedor-cards">
+        @* @foreach (var item in Model)
+        { *@
 
-}
+        <ul class="list-items">
+            <li>
+                Photo
+            </li>
+            <li>
+                <h1>Planta</h1>
+            </li>
+            <li>
+                Description
+            </li>
+            <li>
+                Family
+            </li>
+            <li>
+                Enfermedades
+            </li>
+            <li>
+                Plagas comunes
+            </li>
+        </ul>
+
+        @* } *@
+    </div>
+</div>
