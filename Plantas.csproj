@@ -6,4 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+<<<<<<< HEAD
+    <PackageReference Include="CloudinaryDotNet" Version="1.26.2" />
+=======
+>>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
+    <PackageReference Include="dotenv.net" Version="3.2.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.27.0" />
+  </ItemGroup>
+
 </Project>
