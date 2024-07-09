@@ -31,7 +31,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "CloudinaryDotNet/1.26.2": {
         "type": "package",
         "dependencies": {
@@ -50,8 +49,6 @@
           }
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "DnsClient/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -99,7 +96,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-<<<<<<< HEAD
       "Microsoft.NETCore.Targets/1.1.3": {
         "type": "package",
         "compile": {
@@ -109,8 +105,6 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "Microsoft.Win32.Registry/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -227,7 +221,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "Newtonsoft.Json/13.0.3": {
         "type": "package",
         "compile": {
@@ -399,8 +392,6 @@
           }
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "SharpCompress/0.30.1": {
         "type": "package",
         "compile": {
@@ -432,7 +423,6 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-<<<<<<< HEAD
       "System.Collections/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -633,8 +623,6 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
@@ -644,7 +632,6 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-<<<<<<< HEAD
       "System.Net.Http/4.3.4": {
         "type": "package",
         "dependencies": {
@@ -758,8 +745,6 @@
           }
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
         "compile": {
@@ -773,7 +758,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "System.Runtime.Extensions/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -831,8 +815,6 @@
           "lib/netstandard1.3/System.Runtime.Numerics.dll": {}
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "System.Security.AccessControl/5.0.0": {
         "type": "package",
         "dependencies": {
@@ -856,7 +838,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "System.Security.Cryptography.Algorithms/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1078,8 +1059,6 @@
           }
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "System.Security.Principal.Windows/5.0.0": {
         "type": "package",
         "compile": {
@@ -1103,7 +1082,6 @@
           }
         }
       },
-<<<<<<< HEAD
       "System.Text.Encoding/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -1157,8 +1135,6 @@
           }
         }
       },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "ZstdSharp.Port/0.7.3": {
         "type": "package",
         "compile": {
@@ -1223,7 +1199,6 @@
         "tools/uninstall.ps1"
       ]
     },
-<<<<<<< HEAD
     "CloudinaryDotNet/1.26.2": {
       "sha512": "JUDOUKa7T+h0nmMhBdBxCkCldN4/DIZLOlh5p30KrcBX6Spral6vxTWhzk6OH2pGd8MGL5R379EsK7tJr/IQpw==",
       "type": "package",
@@ -1243,8 +1218,6 @@
         "lib/netstandard2.0/CloudinaryDotNet.xml"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "DnsClient/1.6.1": {
       "sha512": "4H/f2uYJOZ+YObZjpY9ABrKZI+JNw3uizp6oMzTXwDw6F+2qIPhpRl/1t68O/6e98+vqNiYGu+lswmwdYUy3gg==",
       "type": "package",
@@ -1315,7 +1288,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
     "Microsoft.NETCore.Targets/1.1.3": {
       "sha512": "3Wrmi0kJDzClwAC+iBdUBpEKmEle8FQNsCs77fkiOIw/9oYA07bL1EZNX0kQ2OMN3xpwvl0vAtOCYY3ndDNlhQ==",
       "type": "package",
@@ -1331,8 +1303,6 @@
         "runtime.json"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "Microsoft.Win32.Registry/5.0.0": {
       "sha512": "dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
       "type": "package",
@@ -1459,7 +1429,6 @@
         "runtimes/win/native/mongocrypt.dll"
       ]
     },
-<<<<<<< HEAD
     "Newtonsoft.Json/13.0.3": {
       "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
       "type": "package",
@@ -1700,8 +1669,6 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "SharpCompress/0.30.1": {
       "sha512": "XqD4TpfyYGa7QTPzaGlMVbcecKnXy4YmYLDWrU+JIj7IuRNl7DH2END+Ll7ekWIY8o3dAMWLFDE1xdhfIWD1nw==",
       "type": "package",
@@ -1769,7 +1736,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
     "System.Collections/4.3.0": {
       "sha512": "3Dcj85/TBdVpL5Zr+gEEBUuFe2icOnLalmEh9hfck1PTYbbyWuZgh4fmm2ysCLTrqLQw6t3TgTyJ+VLp+Qb+Lw==",
       "type": "package",
@@ -2462,8 +2428,6 @@
         "system.linq.nuspec"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "System.Memory/4.5.5": {
       "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
@@ -2487,7 +2451,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
     "System.Net.Http/4.3.4": {
       "sha512": "aOa2d51SEbmM+H+Csw7yJOuNZoHkrP2XnAurye5HWYgGVVU54YZDvsLUYRv6h18X3sPnjNCANmN7ZhIPiqMcjA==",
       "type": "package",
@@ -2896,8 +2859,6 @@
         "system.runtime.nuspec"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "System.Runtime.CompilerServices.Unsafe/5.0.0": {
       "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "type": "package",
@@ -2930,7 +2891,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
     "System.Runtime.Extensions/4.3.0": {
       "sha512": "guW0uK0fn5fcJJ1tJVXYd7/1h5F+pea1r7FLSOz/f8vPEqbR2ZAknuRDvTQ8PzAilDveOxNjSfr0CHfIQfFk8g==",
       "type": "package",
@@ -3200,8 +3160,6 @@
         "system.runtime.numerics.nuspec"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "System.Security.AccessControl/5.0.0": {
       "sha512": "dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
       "type": "package",
@@ -3249,7 +3207,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
     "System.Security.Cryptography.Algorithms/4.3.0": {
       "sha512": "W1kd2Y8mYSCgc3ULTAZ0hOP2dSdG5YauTb1089T0/kRcN2MpSAW1izOFROrJgxSlMn3ArsgHXagigyi+ibhevg==",
       "type": "package",
@@ -3493,8 +3450,6 @@
         "system.security.cryptography.x509certificates.nuspec"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "System.Security.Principal.Windows/5.0.0": {
       "sha512": "t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
       "type": "package",
@@ -3550,7 +3505,6 @@
         "version.txt"
       ]
     },
-<<<<<<< HEAD
     "System.Text.Encoding/4.3.0": {
       "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "type": "package",
@@ -3842,8 +3796,6 @@
         "system.threading.tasks.nuspec"
       ]
     },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
     "ZstdSharp.Port/0.7.3": {
       "sha512": "U9Ix4l4cl58Kzz1rJzj5hoVTjmbx1qGMwzAcbv1j/d3NzrFaESIurQyg+ow4mivCgkE3S413y+U9k4WdnEIkRA==",
       "type": "package",
@@ -3865,10 +3817,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-<<<<<<< HEAD
       "CloudinaryDotNet >= 1.26.2",
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
       "MongoDB.Driver >= 2.27.0",
       "dotenv.net >= 3.2.0"
     ]
@@ -3910,13 +3859,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-<<<<<<< HEAD
           "CloudinaryDotNet": {
             "target": "Package",
             "version": "[1.26.2, )"
           },
-=======
->>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
           "MongoDB.Driver": {
             "target": "Package",
             "version": "[2.27.0, )"
