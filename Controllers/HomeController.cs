@@ -1,5 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using MongoDB.Driver;
+using Plantas.DTO;
 using Plantas.Models;
 using Plantas.Services;
 
@@ -19,15 +21,37 @@ public class HomeController : Controller
     {
         return View();
     }
-    public IActionResult Create()
+    [HttpPost]
+    public async Task<IActionResult> Register([FromForm] PlantDTO plant)
     {
-        return Index();
+        
+        if (await _targetService.InsertarPlanta(plant) == true)
+        {
+            return RedirectToAction("Index", "Home");
+        }
+        else
+        {
+            ViewBag.Error("Hubo un error al insertar la planta");
+            return Register();
+        }
+
+    }
+
+    public IActionResult Register()
+    {
+        return View();
+    }
+    public IActionResult Dashboard()
+    {
+        var plants = _targetService.GetPlants().Result;
+        return View(plants);
     }
 
     public IActionResult Privacy()
     {
         return View();
     }
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

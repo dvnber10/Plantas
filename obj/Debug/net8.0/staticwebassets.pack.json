@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/Plantas.bundle.scp.css"
     },
     {
+      "Id": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/css/dashboard.css",
+      "PackagePath": "staticwebassets/css/dashboard.css"
+    },
+    {
+      "Id": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/css/register.css",
+      "PackagePath": "staticwebassets/css/register.css"
+    },
+    {
       "Id": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

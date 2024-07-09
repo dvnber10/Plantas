@@ -1,23 +1,56 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Plantas.Repositories;
-using ZstdSharp.Unsafe;
 using Plantas.Models;
-using Microsoft.AspNetCore.Http.HttpResults;
+using Plantas.DTO;
+using Plantas.Utilities;
+using dotenv.net;
+using CloudinaryDotNet;
+using CloudinaryDotNet.Actions;
 
 namespace Plantas.Services
 {
     public class TargetService
     {
         private DataInterface db = new DataCollection();
+        private readonly ImageUtility _uti;
+
+        public TargetService(ImageUtility uti){
+            _uti = uti;
+        }
         
-        public async Task InsertarPlanta(Plant planta){
+        public async Task<bool> InsertarPlanta(PlantDTO planta){
             try
             {
-                await db.InsertPlant(planta);
-                
+                //subir Imagen a cloud
+#pragma warning disable CS8604 // Possible null reference argument.
+                var route = _uti.ImageUpload(planta.Image);
+#pragma warning restore CS8604 // Possible null reference argument.
+                DotEnv.Load(options: new DotEnvOptions(probeForEnv: true));
+                Cloudinary cloudinary = new(Environment.GetEnvironmentVariable("CLOUDINARY_URL"));
+                cloudinary.Api.Secure = true;
+                var uploadParams = new ImageUploadParams()
+                {
+                    File = new FileDescription(@""+route.Result),
+                    UseFilename = true,
+                    UniqueFilename = false,
+                    Overwrite = true
+                };
+                var uploadResult = cloudinary.Upload(uploadParams);
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
+                //guardar Url de la imagen para la base de datos
+                string urlImage = Convert.ToString(uploadResult.SecureUrl);
+                string IdImage = Convert.ToString(uploadResult.PublicId);
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
+                //convertir del DTO a el modelo 
+                var plant = new Plant{
+                    Name=planta.Name,
+                    Description=planta.Description,
+                    Imagen= urlImage,
+                    IdImagen = IdImage
+                };
+                //Insertar en la base de datos la url de la imagen 
+                await db.InsertPlant(plant);
+                File.Delete(route.Result);
+                return true;
             }
             catch (System.Exception)
             {
