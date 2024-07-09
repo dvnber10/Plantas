@@ -15,7 +15,8 @@ namespace Plantas.Models
         public string? Id {get; set;}
         public string? Name{ get; set; }
         public string? Description{ get; set; }
-        public IFormFile? Imagen { get; set; }
+        public string? Imagen { get; set; }
+        public string? IdImagen { get; set; }
 
     }
 }
