@@ -28,10 +28,14 @@
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.pdb
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.genruntimeconfig.cache
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/ref/Plantas.dll
+<<<<<<< HEAD
+/home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.sourcelink.json
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/AWSSDK.Core.dll
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/AWSSDK.SecurityToken.dll
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/DnsClient.dll
+=======
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/dotenv.net.dll
+>>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/MongoDB.Bson.dll
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/MongoDB.Driver.dll
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/MongoDB.Driver.Core.dll
@@ -43,5 +47,6 @@
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/runtimes/osx/native/libmongocrypt.dylib
 /home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/runtimes/win/native/mongocrypt.dll
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.csproj.AssemblyReference.cache
-/home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.sourcelink.json
 /home/dvn/Documentos/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.csproj.CopyComplete
+/home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/CloudinaryDotNet.dll
+/home/dvn/Documentos/Desarrollo/C#/Plantas/bin/Debug/net8.0/Newtonsoft.Json.dll

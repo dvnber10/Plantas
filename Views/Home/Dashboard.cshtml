@@ -1,0 +1,38 @@
+@model IEnumerable<Plantas.Models.Plant>
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="caja-dashboard">
+    <h1 class="title-plantas">Libreta</h1>
+    <span class="loop"><input type="text" placeholder="buscar"></span>
+</div>
+<div class="contenedor-cards">
+    @foreach (var item in Model)
+    {
+
+    <ul class="list-items">
+        <li>
+            <img src="@Html.DisplayFor(modelitem => item.Imagen)" style="width: 140px; height: 100px;" alt="">
+        </li>
+        <li>
+            <h1>@Html.DisplayFor(modelitem => item.Name)</h1>
+        </li>
+        <li>
+            <p>@Html.DisplayFor(modelitem => item.Description)</p>
+        </li>
+        <li>
+            Family
+        </li>
+        <li>
+            Enfermedades
+        </li>
+        <li>
+            Plagas comunes
+        </li>
+    </ul>
+
+    }
+</div>
+</div>

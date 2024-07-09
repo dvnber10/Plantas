@@ -27,12 +27,11 @@ namespace Plantas.Repositories
             await collection.ReplaceOneAsync(filter,plant);  
         }
         public async Task  DeletePlant(string Id){
-            var filter = Builders<Plant>.Filter.Eq(s => s.Id, Id);
+            var filter = Builders<Plant>.Filter.Eq(s => s.Id,Id);
             await collection.DeleteOneAsync(filter);
         }
-        public async Task <Plant>GetPlantById(string id){
+        public async Task<Plant> GetPlantById(string id){
             return await collection.FindAsync(new BsonDocument{{"_id", new ObjectId(id)}}).Result.FirstOrDefaultAsync();
         }          
-        
     }
 }
