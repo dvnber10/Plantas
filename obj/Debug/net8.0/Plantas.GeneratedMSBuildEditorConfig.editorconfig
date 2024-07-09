@@ -18,8 +18,13 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/dvn/Documentos/Desarrollo/C#/Plantas
 build_property._RazorSourceGeneratorDebug = 
 
+<<<<<<< HEAD
 [/home/dvn/Documentos/Desarrollo/C\#/Plantas/Views/Home/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9EYXNoYm9hcmQuY3NodG1s
+=======
+[/home/dvn/Documentos/Desarrollo/C\#/Plantas/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DcmVhdGUuY3NodG1s
+>>>>>>> 388509a71cace2343a047210e18e6f86111ebdc4
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/dvn/Documentos/Desarrollo/C\#/Plantas/Views/Home/Index.cshtml]
