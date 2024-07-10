@@ -1,28 +1,156 @@
 .caja-dashboard {
-    width: 97%;
-    margin: auto;
-}
-
-.contenedor-cards{
+    width: 100%;
     display: flex;
-    padding: 10px;
+    justify-content: space-between;
+    line-height: 20px;
+    align-items: center;
 }
 
-.list-items { 
+.title-lib {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loop {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.loop>input {
+    width: 60%;
+    border-radius: 10px;
+    margin-right: 4px;
+    padding-left: 8px;
+}
+
+.loop>i {
+    font-size: 20px;
+}
+.contenedor-cards {
+    display: flex;
+    width: 100%;
+    height: 68vh;
+    overflow: auto;
+    flex-wrap: wrap;
+    padding: 8px;
+    justify-content: center;
+}
+
+.list-items {
     border: 1px solid blue;
     background-color: rgb(110, 110, 202);
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
     border-radius: 14px;
-    width: 300px;
+    width: 180px;
+    min-width: 200px;
+    max-height: 300px;
     padding: 25px 20px;
     list-style-type: none;
-    color: white;    
-    margin: 5px; 
+    color: white;
+    margin: 10px;
+    opacity: .98;
+}
+.list-items>ul {
+    list-style: none;
+}
+
+.titulo-card {
+    padding-top: 10px;
+    overflow-wrap: break-word;
+}
+
+.list-items:hover {
+    background-color: rgb(86, 86, 177);
+    opacity: 1;
+
+}
+
+.caja-dashboard {
+    width: 100%;
+    margin-top: 2px;
+    font-weight: bold;
+}
+
+.imagen-portada {
+    width: 100%;
+}
+
+.imagen-item {
+    width: 100%;
+    height: 120px;
+    border: 1px solid white;
 }
 
 
-@media (min-width: 1040px) {
-    .list-items{
-         width: 200px;
+@media only screen and (min-width: 578px) and (max-width: 992px) {
+    .caja-dashboard {
+        width: 95%;
+        margin: auto;
+    }
+
+    .loop {
+        width: 90%;
+        justify-content: end;
+    }
+
+    .loop>input {
+        width: 98%;
+
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+    .caja-dashboard {
+        width: 95%;
+        margin: auto;
+    }
+
+    .loop {
+        width: 100%;
+    }
+
+    .loop>input {
+        width: 60%;
+    }
+}
+
+@media only screen and (min-width: 30px) and (max-width: 576px) {
+
+    .contenedor-cards {
+        justify-content: center;
+    }
+
+    .loop {
+        width: 100%;
+    }
+
+    .loop>input {
+        width: 98%;
+    }
+
+    .caja-dashboard {
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .title-lib {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .loop {
+        width: 80%;
+    }
+
+    .list-items {
+        width: 160px;
+        min-width: 20px;
+        max-height: 300px;
+        justify-content: center;
     }
 }
