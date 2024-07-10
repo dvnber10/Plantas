@@ -99,3 +99,15 @@
 /home/gustavo/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.csproj.Up2Date
 /home/gustavo/Desarrollo/C#/Plantas/obj/Debug/net8.0/Plantas.genruntimeconfig.cache
 /home/gustavo/Desarrollo/C#/Plantas/obj/Debug/net8.0/ref/Plantas.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Blazorise.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Blazorise.Icons.FontAwesome.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Blazorise.Licensing.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.AspNetCore.Authorization.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.AspNetCore.Components.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Forms.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.AspNetCore.Components.Web.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.AspNetCore.Metadata.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.Extensions.Logging.Abstractions.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/home/gustavo/Desarrollo/C#/Plantas/bin/Debug/net8.0/Microsoft.JSInterop.dll

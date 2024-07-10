@@ -3,27 +3,30 @@
 @{
     ViewData["Title"] = "Dashboard";
 }
+@* <link rel="stylesheet" href="_content/Blazorise.Icons.FontAwesome/fontawesome-all.min.css" /> *@
+
 
 <div class="caja-dashboard">
-    <h1 class="title-plantas">Libreta</h1>
-    <span class="loop"><input type="text" placeholder="buscar"></span>
+    <span class="loop">
+        <input type="text" placeholder="Buscar">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </span>
+    <h3 class="title-lib">Biblioteca</h3>
 </div>
 <div class="contenedor-cards">
     @foreach (var item in Model)
     {
-
-    <ul class="list-items">
-        <li>
-            <img src="@Html.DisplayFor(modelitem => item.Imagen)" style="width: 160px; height: 100px;" alt="">
-        </li>
-        <li>
-            <h1>@Html.DisplayFor(modelitem => item.Name)</h1>
-        </li>
-        <li>
-            <p>@Html.DisplayFor(modelitem => item.Description)</p>
-        </li>
-    </ul>
+        <button class="list-items" asp-controller="Actions" asp-action="ViewTarget" asp-route-id="@item.Id"> 
+            <div class="imagen-portada">
+                <img class="imagen-item" src="@Html.DisplayFor(modelitem => item.Imagen)" alt="">
+            </div>
+            <div>
+                <h4 class="titulo-card">@Html.DisplayFor(modelitem => item.Name)</h4>
+            </div>
+            <div>
+                <p>@Html.DisplayFor(modelitem => item.Description)</p>
+            </div>
+        </button>
 
     }
-</div>
 </div>
