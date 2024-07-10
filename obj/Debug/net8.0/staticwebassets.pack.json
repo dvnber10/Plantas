@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/icon/magnifying-glass-solid.svg",
+      "PackagePath": "staticwebassets/icon/magnifying-glass-solid.svg"
+    },
+    {
       "Id": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

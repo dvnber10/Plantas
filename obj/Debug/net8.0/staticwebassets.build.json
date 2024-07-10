@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mxcmw9RZRNzyLq/HTYrF6PU8gE4BMLNGld0Pxi59cZg=",
+  "Hash": "7Dj3/Z2G1SZcXjSoJ/kltjEvTaAW7OLZ/vHZqFQZLTY=",
   "Source": "Plantas",
   "BasePath": "_content/Plantas",
   "Mode": "Default",
@@ -129,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/icon/magnifying-glass-solid.svg",
+      "SourceId": "Plantas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/",
+      "BasePath": "_content/Plantas",
+      "RelativePath": "icon/magnifying-glass-solid.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/icon/magnifying-glass-solid.svg"
     },
     {
       "Identity": "/home/dvn/Documentos/Desarrollo/C#/Plantas/wwwroot/js/site.js",
