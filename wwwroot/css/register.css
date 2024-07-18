@@ -1,37 +1,68 @@
 .caja-inicio {
-    margin: auto;
+    margin: 10% auto;
     align-items: center;
     width: 50%;
-    background-color: rgba(218, 200, 200, 0.877);
-    border-radius: 14px;
+    border: 1px solid blue;
+    background-color: rgb(110, 110, 202);
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
+
+    /* background-color: rgba(218, 200, 200, 0.877); */
+    border-radius: 14px;
+    /* box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3); */
+
+    color: white;
 }
 
-.title-plantas{
+.title-plantas {
     text-align: center;
     padding-top: 20px;
 }
 
-.formulario-plantas{
+.formulario-plantas {
     padding: 25px 20px;
     justify-content: left;
     width: 80%;
     margin: auto;
 }
 
-.caja-entrada{
+.caja-entrada {
     flex-direction: column-reverse;
     width: 100%;
     padding: 4px;
 }
 
-.caja-entrada > label{
+.caja-entrada>label {
     width: 100%;
     font-weight: bold;
 }
 
-.caja-entrada > input, .caja-entrada > textarea{
+.caja-entrada>input,
+.caja-entrada>textarea {
     width: 100%;
     border-radius: 5px;
     accent-color: rgb(69, 69, 197);
+}
+
+.enviar-data {
+    width: 100%;
+    padding: auto;
+}
+
+@media only screen and (min-width: 30px) and (max-width: 576px) {
+
+    .caja-inicio {
+        width: 95%;
+        margin: 30% auto;
+    }
+
+    .formulario-plantas {
+        width: 95%;
+    }
+}
+
+@media only screen and (min-width: 578px) and (max-width: 768px) {
+    .caja-inicio {
+        width: 80%;
+        margin: 3% auto;
+    }
 }
