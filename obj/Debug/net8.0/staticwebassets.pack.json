@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
+      "Id": "/home/gustavo/Desarrollo/C#/plantas/Plantas/wwwroot/css/viewTarget.css",
+      "PackagePath": "staticwebassets/css/viewTarget.css"
+    },
+    {
       "Id": "/home/gustavo/Desarrollo/C#/plantas/Plantas/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },

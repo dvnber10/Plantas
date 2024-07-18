@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zlVpPQIkTqJQIuCyI8sJkPFC0sb/CqKm9cU7+K5Umes=",
+  "Hash": "2sriycZVcSPhVPQpoHgEgW87PFD7XrdMW0/MoR//4ho=",
   "Source": "Plantas",
   "BasePath": "_content/Plantas",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/home/gustavo/Desarrollo/C#/plantas/Plantas/wwwroot/css/viewTarget.css",
+      "SourceId": "Plantas",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/gustavo/Desarrollo/C#/plantas/Plantas/wwwroot/",
+      "BasePath": "_content/Plantas",
+      "RelativePath": "css/viewTarget.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/viewTarget.css"
     },
     {
       "Identity": "/home/gustavo/Desarrollo/C#/plantas/Plantas/wwwroot/favicon.ico",
