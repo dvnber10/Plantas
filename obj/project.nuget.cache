@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oQv5iFu+maFPTAiQ4Tb8iZVIeQDEPGSat3qUk7LgNCYvOeRTzWKb4kpcOuqhQ0p7znYYe2HD2g9GLLb8Ak2BMA==",
+  "dgSpecHash": "WNI6A+rHWvZXJ/GkPxOyMTUDCXG/SVEe0jHsJvMjfQiGS6Tq2iwOUbgF0vLHmCZPbbTqoxt91CFP2BnPmTidUA==",
   "success": true,
   "projectFilePath": "/home/dvn/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
   "expectedPackageFiles": [
@@ -74,7 +74,7 @@
     "/home/dvn/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/home/dvn/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/home/dvn/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512",
-    "/home/dvn/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.6/microsoft.aspnetcore.app.ref.8.0.6.nupkg.sha512"
+    "/home/dvn/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.7/microsoft.aspnetcore.app.ref.8.0.7.nupkg.sha512"
   ],
   "logs": []
 }

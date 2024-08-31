@@ -13,11 +13,13 @@ namespace Plantas.Services
         private DataInterface db = new DataCollection();
         private readonly ImageUtility _uti;
 
-        public TargetService(ImageUtility uti){
+        public TargetService(ImageUtility uti)
+        {
             _uti = uti;
         }
-        
-        public async Task<bool> InsertarPlanta(PlantDTO planta){
+
+        public async Task<bool> InsertarPlanta(PlantDTO planta)
+        {
             try
             {
                 //subir Imagen a cloud
@@ -29,7 +31,7 @@ namespace Plantas.Services
                 cloudinary.Api.Secure = true;
                 var uploadParams = new ImageUploadParams()
                 {
-                    File = new FileDescription(@""+route.Result),
+                    File = new FileDescription(@"" + route.Result),
                     UseFilename = true,
                     UniqueFilename = false,
                     Overwrite = true
@@ -41,10 +43,11 @@ namespace Plantas.Services
                 string IdImage = Convert.ToString(uploadResult.PublicId);
 #pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
                 //convertir del DTO a el modelo 
-                var plant = new Plant{
-                    Name=planta.Name,
-                    Description=planta.Description,
-                    Imagen= urlImage,
+                var plant = new Plant
+                {
+                    Name = planta.Name,
+                    Description = planta.Description,
+                    Imagen = urlImage,
                     IdImagen = IdImage
                 };
                 //Insertar en la base de datos la url de la imagen 
@@ -57,10 +60,29 @@ namespace Plantas.Services
                 throw;
             }
         }
-        public async Task<List<Plant>> GetPlants(){
-            
+        public async Task<List<Plant>> GetPlants()
+        {
+
             return await db.GetAllPlants();
-           
+
+        }
+        public async Task<Plant> VerPlanta(string id)
+        {
+            try
+            {
+                var plantaActual = await db.GetPlantById(id);
+                return plantaActual;
+            }
+            catch(System.Exception e)
+            {
+                var plantaActual = new Plant{
+                    Name= " ",
+                    Description = "No Existe La Planta que estas buscando "+e
+                };
+                return plantaActual;
+            }
         }
     }
+
+
 }
