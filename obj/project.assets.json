@@ -3823,19 +3823,19 @@
     ]
   },
   "packageFolders": {
-    "/home/gustavo/.nuget/packages/": {}
+    "/home/duvan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/Plantas.csproj",
+      "projectUniqueName": "/home/duvan/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
       "projectName": "Plantas",
-      "projectPath": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/Plantas.csproj",
-      "packagesPath": "/home/gustavo/.nuget/packages/",
-      "outputPath": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/obj/",
+      "projectPath": "/home/duvan/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
+      "packagesPath": "/home/duvan/.nuget/packages/",
+      "outputPath": "/home/duvan/Documentos/Desarrollo/C#/Plantas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/gustavo/.nuget/NuGet/NuGet.Config"
+        "/home/duvan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
