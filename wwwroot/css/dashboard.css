@@ -1,9 +1,13 @@
+
+@import url('variables.css');
+
 .caja-dashboard {
     width: 100%;
     display: flex;
     justify-content: space-between;
     line-height: 20px;
     align-items: center;
+    background-color: var(--segundo);
 }
 
 .title-lib {
