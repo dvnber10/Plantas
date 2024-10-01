@@ -3823,19 +3823,19 @@
     ]
   },
   "packageFolders": {
-    "/home/dvn/.nuget/packages/": {}
+    "/home/gustavo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/dvn/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
+      "projectUniqueName": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/Plantas.csproj",
       "projectName": "Plantas",
-      "projectPath": "/home/dvn/Documentos/Desarrollo/C#/Plantas/Plantas.csproj",
-      "packagesPath": "/home/dvn/.nuget/packages/",
-      "outputPath": "/home/dvn/Documentos/Desarrollo/C#/Plantas/obj/",
+      "projectPath": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/Plantas.csproj",
+      "packagesPath": "/home/gustavo/.nuget/packages/",
+      "outputPath": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/dvn/.nuget/NuGet/NuGet.Config"
+        "/home/gustavo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3886,7 +3886,7 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[8.0.7, 8.0.7]"
+            "version": "[8.0.8, 8.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -3897,7 +3897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.107/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

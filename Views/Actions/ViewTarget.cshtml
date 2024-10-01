@@ -1,28 +1,46 @@
 @model Plant
 
-<div class="caja-principal">
-    <div class="name">
-        <h1>@Model.Name</h1>
-    </div>
-    <div class="card-planta">
-        <div class="propiedades">
-            <h3>Bienvenido a la data de una planta</h3>
-            <img src="@Model.Imagen" alt="">
+@* Vista de la ficha de cada planta con enfermedades *@
+<div class="contenedor">
+    <div class="caja-principal">
+        <span> </span> @* boton para regresar al history *@
+        <div class="name">
+            @* Este es el titulo de cada plantilla *@
+            <h1>@Model.Name</h1>
         </div>
-        <div class="comunes">
+        <div class="card-planta">
+            <div class="propiedades">
+                <h3>Información</h3> @*Aqui es donde se suministra la informacion de cada planta *@
+                <p>Descripción: @Model.Description</p>
+            </div>
+            <div class="photo">
+                <div class="image">
+                    <img class="muestra" src="@Model.Imagen" alt="">
+                </div>
+                <h4>Enfermedades comunes</h4>
+                <div class="contenido-familia">
 
-            <h4>Enfermedades comunes</h4>
+                    <article class="familias">
+                        <a class="enlace" href="">primera </a>
+                        <a class="enlace" href="">estancias</a>
+                        <a class="enlace" href="">estancias</a>
+                        <a class="enlace" href="">estancias</a>
+                        <a class="enlace" href="">estancias</a>
+                    </article>
+                    <p>Descripción: @Model.Description</p>
+                    <p>Familia: "Familia de la planta"</p>
+                    <p>Habitat: "Habitat de la planta"</p>
+                </div>
 
-            <article>
-                <a class="enlace" href="">primera </a>
-                <a class="enlace" href="">estancias</a>
-                <a class="enlace" href="">estancias</a>
-                <a class="enlace" href="">estancias</a>
-                <a class="enlace" href="">estancias</a>
-            </article>
-            <p>Descripción: @Model.Description</p>
-            <p>Familia: "Familia de la planta"</p>
-            <p>Habitat: "Habitat de la planta"</p>
+            </div>
+        </div>
+
+        @* agrega contenido *@
+        <div class="agregar-info">
+            <form class="formulario" action="">
+                <textarea class="edita" placeholder="Agrega mas información de una planta"></textarea>
+                <input class="boton-enviar" type="submit" value="Guardar">
+            </form>
         </div>
     </div>
 </div>
