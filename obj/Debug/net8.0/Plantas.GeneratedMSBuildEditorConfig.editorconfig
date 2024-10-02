@@ -38,7 +38,15 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [/home/duvan/Documentos/Desarrollo/C\#/Plantas/Views/Shared/Error.cshtml]
+=======
+[/home/gustavo/Dropbox/Desarrollo/C\#/Plantas/Views/Home/Registers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9SZWdpc3RlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/gustavo/Dropbox/Desarrollo/C\#/Plantas/Views/Shared/Error.cshtml]
+>>>>>>> e1b9c9e (feat: inserta card de  planta)
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
