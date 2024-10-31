@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iFnXmv/NYOs=",
+  "dgSpecHash": "cjIYfVtc3Z0QAn4KUhug0xbNjAp6GsQpXkpRZtF0Yc9yI+67AxZJiwSbwMdi1G+4PgdFZNCmWWq5DG37B6q0tg==",
   "success": true,
-  "projectFilePath": "/home/gustavo/Desarrollo/C#/plantas/Plantas/Plantas.csproj",
+  "projectFilePath": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/Plantas.csproj",
   "expectedPackageFiles": [
     "/home/gustavo/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/home/gustavo/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
@@ -73,7 +73,15 @@
     "/home/gustavo/.nuget/packages/system.text.regularexpressions/4.3.1/system.text.regularexpressions.4.3.1.nupkg.sha512",
     "/home/gustavo/.nuget/packages/system.threading/4.3.0/system.threading.4.3.0.nupkg.sha512",
     "/home/gustavo/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
-    "/home/gustavo/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512"
+    "/home/gustavo/.nuget/packages/zstdsharp.port/0.7.3/zstdsharp.port.0.7.3.nupkg.sha512",
+    "/home/gustavo/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/gustavo/Dropbox/Desarrollo/C#/Plantas/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

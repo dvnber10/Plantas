@@ -3828,11 +3828,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/gustavo/Desarrollo/C#/plantas/Plantas/Plantas.csproj",
+      "projectUniqueName": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/Plantas.csproj",
       "projectName": "Plantas",
-      "projectPath": "/home/gustavo/Desarrollo/C#/plantas/Plantas/Plantas.csproj",
+      "projectPath": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/Plantas.csproj",
       "packagesPath": "/home/gustavo/.nuget/packages/",
-      "outputPath": "/home/gustavo/Desarrollo/C#/plantas/Plantas/obj/",
+      "outputPath": "/home/gustavo/Dropbox/Desarrollo/C#/Plantas/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/gustavo/.nuget/NuGet/NuGet.Config"
@@ -3853,11 +3853,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3888,6 +3883,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.10, 8.0.10]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3896,8 +3897,16 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /home/gustavo/Dropbox/Desarrollo/C#/Plantas/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

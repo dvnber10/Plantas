@@ -38,9 +38,13 @@
     justify-content: center;
 }
 
+<<<<<<< Updated upstream
 .list-items {
     border: 1px solid blue;
     background-color: rgb(110, 110, 202);
+=======
+.target {
+>>>>>>> Stashed changes
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
     border-radius: 14px;
     width: 180px;
@@ -50,10 +54,23 @@
     list-style-type: none;
     color: white;
     margin: 10px;
+<<<<<<< Updated upstream
     opacity: .98;
 }
 .list-items>ul {
     list-style: none;
+=======
+    /* opacity: .98; */
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.target:hover {
+    transform: scale3d(1.5, 1.4, 1); 
+    background-color: var(--quinto);
+    opacity: 1;
+    color: var(--letra-uno);
+>>>>>>> Stashed changes
 }
 
 .titulo-card {

@@ -16,7 +16,7 @@
 <div class="contenedor-cards">
     @foreach (var item in Model)
     {
-        <a class="list-items" asp-controller="Actions" asp-action="ViewTarget" asp-route-id="@item.Id"> 
+        <a class="target" asp-controller="Actions" asp-action="ViewTarget" asp-route-id="@item.Id"> 
             <div class="imagen-portada">
                 <img class="imagen-item" src="@Html.DisplayFor(modelitem => item.Imagen)" alt="">
             </div>
