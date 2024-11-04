@@ -12,11 +12,17 @@ namespace Plantas.Models
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string? Id {get; set;}
-        public string? Name{ get; set; }
-        public string? Description{ get; set; }
+        public string? Id { get; set; }
+        public string? Name { get; set; }
+        public string? Description { get; set; }
         public string? Imagen { get; set; }
         public string? IdImagen { get; set; }
+
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string? PlantFamilyId { get; set; }
+
+        [BsonRepresentation(BsonType.ObjectId)]  
+        public List<string>? DiseaseIds { get; set; }
 
     }
 }

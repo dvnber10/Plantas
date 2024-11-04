@@ -1,0 +1,141 @@
+/* Importamos variables */
+@import url('variables.css');
+
+/* caja principal */
+.contenedor {
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.caja-principal {
+    height: 100%;
+    padding: 20px;
+    background-color: var(--primero);
+}
+
+.name {
+    width: 90%;
+    text-align: center;
+    padding: 0 0 0 0;
+    margin: auto;
+    border-bottom: 2px solid var(--cuarto);
+}
+
+.name>h1 {
+    color: var(--letra-uno);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card-planta {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto 0 auto;
+}
+
+
+/* descripcion de la planta */
+.propiedades {
+    width: 69%;
+    background-color: var(--segundo);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.photo {
+    width: 30%;
+}
+
+.photo>h4 {
+    font-weight: small;
+    font-size: 20px;
+    padding-top: 15px;
+}
+
+/* Imagen principal */
+.image {
+    width: 100%;
+    height: 30vh;
+    border-radius: 15px;
+    border: 2px solid #000;
+}
+
+.muestra {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.contenido-familia {
+    background-color: var(--segundo);
+    margin: 5px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.familias {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.enlace {
+    /* color: white; */
+}
+
+/* Vista form agregar informacion */
+.agregar-info {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario {
+    width: 90%;
+    margin: 10px auto 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-enviar {
+    margin-top: 10px;
+    background-color: var(--tercero);
+    width: 100%;
+    height: 40px;
+    color: var(--cuarto);
+    border: 1px solid var(--cuarto);
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.edita {
+    background-color: var(--segundo);
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border: 1px solid var(--letra-uno);
+    border-radius: 5px;
+    resize: vertical;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.edita:focus {
+    outline: none;
+    /* Quitar el borde azul de enfoque */
+    border-color: #007BFF;
+    /* Cambiar el color del borde al estar en foco */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    /* Sombra al hacer foco */
+}

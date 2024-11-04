@@ -6,17 +6,20 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Plantas.DTO;
+using Plantas.Services;
 
 namespace Plantas.Controllers
 {
     [Route("[controller]")]
     public class Actions : Controller
     {
+        private readonly TargetService _targetService;
         private readonly ILogger<Actions> _logger;
 
-        public Actions(ILogger<Actions> logger)
+        public Actions(ILogger<Actions> logger, TargetService target)
         {
             _logger = logger;
+            _targetService = target;
         }
 
         public IActionResult Index()
@@ -26,7 +29,8 @@ namespace Plantas.Controllers
         [HttpGet]
         public IActionResult ViewTarget(string Id)
         {
-            return View();
+            var plant = _targetService.VerPlanta(Id).Result;
+            return View(plant);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

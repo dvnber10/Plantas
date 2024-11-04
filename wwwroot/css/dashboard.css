@@ -1,9 +1,14 @@
+@import url('variables.css');
+
 .caja-dashboard {
     width: 100%;
     display: flex;
     justify-content: space-between;
     line-height: 20px;
     align-items: center;
+    background-color: var(--primero);
+    padding: 8px 0;
+    margin-top: -40px;
 }
 
 .title-lib {
@@ -28,10 +33,11 @@
 .loop>i {
     font-size: 20px;
 }
+
 .contenedor-cards {
     display: flex;
     width: 100%;
-    height: 68vh;
+    height: 79vh;
     overflow: auto;
     flex-wrap: wrap;
     padding: 8px;
@@ -39,32 +45,33 @@
 }
 
 .list-items {
-    border: 1px solid blue;
-    background-color: rgb(110, 110, 202);
     box-shadow: 14px 14px 20px 0 rgba(20, 20, 20, 0.3);
     border-radius: 14px;
-    width: 180px;
-    min-width: 200px;
-    max-height: 300px;
-    padding: 25px 20px;
-    list-style-type: none;
-    color: white;
+    background: var(--primero);
+    border: 1px solid var(--primero);
+    width: 380px;
+    height: auto;
+    /* min-width: 200px; */
+    /* max-height: 300px; */
+    /* padding:  15px 15px 5px 15px; */
+    /* color: white; */
     margin: 10px;
-    opacity: .98;
-}
-.list-items>ul {
-    list-style: none;
-}
-
-.titulo-card {
-    padding-top: 10px;
-    overflow-wrap: break-word;
+    /* opacity: .98; */
+    text-decoration: none;
 }
 
 .list-items:hover {
-    background-color: rgb(86, 86, 177);
+    background-color: var(--quinto);
     opacity: 1;
+    color: var(--letra-uno);
+}
 
+.titulo-card {
+    padding: 5px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%; 
 }
 
 .caja-dashboard {
@@ -79,8 +86,10 @@
 
 .imagen-item {
     width: 100%;
-    height: 120px;
-    border: 1px solid white;
+    height: 220px;
+    border-radius: 10px;
+    object-fit: cover;
+    /* border: 1px solid white; */
 }
 
 
