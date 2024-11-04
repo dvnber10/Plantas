@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/home/gustavo/Desarrollo/C#/plantas/Plantas/Plantas.csproj": {}
+    "C:\\Users\\USUSARIO\\Desarrollo\\Plantas\\Plantas.csproj": {}
   },
   "projects": {
-    "/home/gustavo/Desarrollo/C#/plantas/Plantas/Plantas.csproj": {
+    "C:\\Users\\USUSARIO\\Desarrollo\\Plantas\\Plantas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/gustavo/Desarrollo/C#/plantas/Plantas/Plantas.csproj",
+        "projectUniqueName": "C:\\Users\\USUSARIO\\Desarrollo\\Plantas\\Plantas.csproj",
         "projectName": "Plantas",
-        "projectPath": "/home/gustavo/Desarrollo/C#/plantas/Plantas/Plantas.csproj",
-        "packagesPath": "/home/gustavo/.nuget/packages/",
-        "outputPath": "/home/gustavo/Desarrollo/C#/plantas/Plantas/obj/",
+        "projectPath": "C:\\Users\\USUSARIO\\Desarrollo\\Plantas\\Plantas.csproj",
+        "packagesPath": "C:\\Users\\USUSARIO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USUSARIO\\Desarrollo\\Plantas\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/gustavo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\USUSARIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -75,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
