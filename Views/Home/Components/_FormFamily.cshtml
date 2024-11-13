@@ -1,0 +1,22 @@
+@* _MyComponent.cshtml *@
+<div >
+    <form id="miFormulario" method="POST" enctype="multipart/form-data" action="/Home/RegisterFamily">
+        <div class="title">
+            <input type="text" placeholder="Name and scientific name" name="FamilyName" id="plantName"
+                onblur="formatPlantName()" required>
+        </div>
+        
+
+        <div class="box-container">
+            <div class="box-description" id="description">
+                <h3>Description</h3>
+                <textarea name="Description" id="" required
+                    placeholder="Here add information about the Familly"></textarea>
+            </div>
+        </div>
+        <div class="box-botton">
+            <input type="submit" value="Guardar">
+        </div>
+    </form>
+
+</div>

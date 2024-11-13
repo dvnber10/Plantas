@@ -10,14 +10,15 @@ namespace Plantas.Services
 {
     public class TargetService
     {
-        private DataInterface db = new DataCollection();
+        private readonly DataInterface<Plant> _db;
         private readonly ImageUtility _uti;
 
-        public TargetService(ImageUtility uti)
+        public TargetService(ImageUtility uti, Context context)
         {
+            _db = new DataCollection(context);
             _uti = uti;
         }
-
+        // insert one plant and up into image to cluodinary
         public async Task<bool> InsertarPlanta(PlantDTO planta)
         {
             try
@@ -51,7 +52,7 @@ namespace Plantas.Services
                     IdImagen = IdImage
                 };
                 //Insertar en la base de datos la url de la imagen 
-                await db.InsertPlant(plant);
+                await _db.Insert(plant);
                 File.Delete(route.Result);
                 return true;
             }
@@ -60,24 +61,27 @@ namespace Plantas.Services
                 throw;
             }
         }
+
+        // show all plants
         public async Task<List<Plant>> GetPlants()
         {
-
-            return await db.GetAllPlants();
-
+            return await _db.GetAll();
         }
+
+        //show one plant 
         public async Task<Plant> VerPlanta(string id)
         {
             try
             {
-                var plantaActual = await db.GetPlantById(id);
+                var plantaActual = await _db.GetById(id);
                 return plantaActual;
             }
-            catch(System.Exception e)
+            catch (System.Exception e)
             {
-                var plantaActual = new Plant{
-                    Name= " ",
-                    Description = "No Existe La Planta que estas buscando "+e
+                var plantaActual = new Plant
+                {
+                    Name = " ",
+                    Description = "No Existe La Planta que estas buscando " + e
                 };
                 return plantaActual;
             }

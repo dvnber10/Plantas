@@ -1,0 +1,24 @@
+    <form id="miFormulario" method="POST" enctype="multipart/form-data" action="/Home/RegisterPlague">
+        <div class="title">
+            <input type="text" placeholder="Name and scientific name" name="Name" id="plantName"
+                onblur="formatPlantName()" required>
+        </div>
+        <div class="box-container">
+            <div class="box-description" id="description">
+                <h3>Description</h3>
+                <textarea name="Description" id="" required
+                    placeholder="Here add information about the Plague."></textarea>
+            </div>
+            <div class="box-image" id="image">
+                <div class="image-principal">
+                    <img id="image"
+                        src="https://www.comparapps.com/wp-content/uploads/2020/03/imagenes-para-paginas-web.png"
+                        alt="">
+                    <input type="file" name="Image" id="" required>
+                </div>
+            </div>
+        </div>
+        <div class="box-botton">
+            <input type="submit" value="Guardar">
+        </div>
+    </form>
